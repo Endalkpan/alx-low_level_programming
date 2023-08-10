@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * main - a program that print a line using the printf function
+ * main - printing output with in printf
  *
  * Return: always (0)
- * 
+ *
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n")
-		return (0);
-}
+	printf("Programming is like building a multilingual puzzle,\n"
+			return (0);
+			}
