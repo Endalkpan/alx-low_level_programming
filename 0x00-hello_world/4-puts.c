@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * main -it prints out output using put
+ * main - A program that prints aline with puts function
  *
- * Return: always (0)
+ * Return: 0 (Success)
  *
  */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle\n");
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }       
