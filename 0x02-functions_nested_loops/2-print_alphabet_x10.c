@@ -4,7 +4,8 @@
  *
  * followed by a new line
  *
- * */
+ */
+
 void print_alphabet_x10(void)
 {
 	char ch;
