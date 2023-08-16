@@ -13,7 +13,7 @@ int _abs(int c)
 		int abs_val;
 
 		abs_val = c * -1;
-		return (abs_va);
+		return (abs_val);
 	}
 	return (c);
 }
