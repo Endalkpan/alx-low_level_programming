@@ -3,7 +3,7 @@
 
 /**
  * main - prints the numbers from 1 to 100, followed by a new line
- * vvut for multiples of three prints Fizz instead of the number
+ * but for multiples of three prints Fizz instead of the number
  * and for the multiple of five prints Fuzz
  * Return: Always 0 (success)
  */
