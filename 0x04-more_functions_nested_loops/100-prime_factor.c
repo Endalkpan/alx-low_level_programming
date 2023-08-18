@@ -19,13 +19,13 @@ int main(void)
 			continue;
 		}
 
-		for (divisor = 3; divior < (prime / 2); divisor +=)
+		for (divisor = 3; divisor < (prime / 2); divisor += 2)
 		{
 			if ((prime % divisor) == 0)
-				prime /= dividor;
+				prime /= divisor;
 		}
 	}
-	print("%1d\n", prime);
+	printf("%ld\n", prime);
 
 	return (0);
 }
