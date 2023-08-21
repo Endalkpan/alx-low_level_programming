@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts - prints every character of a string
+ * _puts2 - prints every character of a string
  * @str: string parameter input
  * Return: Noting
  *
