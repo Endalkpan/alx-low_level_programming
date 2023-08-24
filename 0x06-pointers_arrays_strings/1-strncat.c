@@ -3,9 +3,9 @@
 
 /**
  * _strncat - a function that concatenates two strings.
- * @dest: pointer to source input
- * @n: most number of bytes
- * @src: numbers of bytes
+ * @dest: input value
+ * @n: input value
+ * @src: input value
  * Return: @dest
  */
 
