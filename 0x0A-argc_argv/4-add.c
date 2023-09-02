@@ -9,21 +9,21 @@
  * Return: 0
  */
 
-int main(int agrc, char *agrv[])
+int main(int argc, char *argv[])
 {
 	int i;
 	unsigned int k, sum = 0;
 	char *e;
 
-	if (agrc > 1)
+	if (argc > 1)
 	{
-		for (i = 1; i < agrc; i++)
+		for (i = 1; i < argc; i++)
 		{
-			e = agrv[i];
+			e = argv[i];
 
-			for (k = 0; k < strlen (e); k++)
+			for (k = 0; k < strlen(e); k++)
 			{
-				if(e[k] < 48 || e[k] > 57)
+				if (e[k] < 48 || e[k] > 57)
 				{
 					printf("error\n");
 					return (1);
