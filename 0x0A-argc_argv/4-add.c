@@ -6,7 +6,7 @@
  * main - prints the sum of args positive numbers
  * @argc: agrument count
  * @argv: argument vector
- * Return: 0
+ * Return: always zero
  */
 
 int main(int argc, char *argv[])
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 			{
 				if (e[k] < 48 || e[k] > 57)
 				{
-					printf("error\n");
+					printf("Error\n");
 					return (1);
 				}
 			}
@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		printf("0\n");
+		printfi("0\n");
 	}
 
 	return (0);
